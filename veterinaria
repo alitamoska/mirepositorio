@@ -1,0 +1,12 @@
+#CREAR REPOSITORIO CUAL DEBE DEFINIR MEDIANTE PSEUDOCÓDIGO LAS CLASES, ATRIBUTOS Y MÉTODOS PARA UN SISTEMA DE BOTILLERÍA
+
+class Product
+{
+
+    ##ATRIBUTOS##
+    
+    id= #código de barra
+    expiration_date=0 #fecha de vencimiento
+    brand= '' #marca
+    name= '' #nombre del producto
+    quantity=0 #cantidad de productos
