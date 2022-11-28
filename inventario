@@ -1,0 +1,24 @@
+class Inventory:                #clase
+
+   def __init__(self, autos, marca, precio):                ##constructor
+        self.autos=''
+        self.marca=''               #atributos
+        self.precio=0
+
+
+print("BIENVENIDO, INGRESE UNA OPCIÓN: ")       #menú
+
+print("1) CERRAR EL MENÚ - ")
+autos=input("2) INVENTARIO DE AUTOS - ")
+if (autos=="2"):
+
+        autos=input("Ingrese el nombre del auto: ")
+        marca=input("Ingrese la marca del auto: ")
+        precio=input("Ingrese el precio del auto: ")
+
+        print("El auto ingresado es: ", autos)
+        print("La marca registrada es: ", marca)
+        print("El precio ingresado es: ", precio)
+        
+else: 
+    print("HA CERRADO EL MENÚ")
