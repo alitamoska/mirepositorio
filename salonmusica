@@ -1,0 +1,27 @@
+class Studio:                #clase
+
+   def __init__(self, id, instruments, disks, microphones, loudspeaker, price, timetable):                ##constructor
+        self.id=0
+        self.instruments=0
+        self.disks=0               #atributos
+        self.microphones=0
+        self.loudspeaker=0
+        self.price=0
+        self.timetable=''
+
+
+id=input("Ingrese el código de barras de su objeto: ")                             #pedir al usuario
+timetable=input("Ingrese el horario el que fue arrendado del bloque: ")
+instruments=input("Ingrese la cantidad de instrumentos del bloque: ")
+disks=input("Ingrese la cantidad de discos del bloque: ")
+microphones=input("Ingrese la cantidad de micrófonos del bloque: ")
+loudspeaker=input("Ingrese la cantidad de parlantes del bloque: ")
+
+
+#mostrar en pantalla
+print("El código de barras es: ", id)
+print("El horario del bloque es: ", timetable)
+print("La cantidad de instrumentos que hay dentro de la sala es: ", instruments)
+print("La cantidad de discos dentro de la sala es: ", disks)
+print("La cantidad de micrófonos dentro de la sala es: ", microphones)
+print("La cantidad de parlantes que hay dentro de la sala es: ", loudspeaker)
